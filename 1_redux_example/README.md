@@ -10,11 +10,11 @@
 <hr/>
 
 1. Redux의 주요 개념
-```html
-state : store에 저장되어 있는 상태값.\n
-action : store에 저장된 상태를 변경시키는 방식.\n
-reducer : action, old state를 받아서 new state로 변환시키는 함수\n
-store : App의 전역 상태 저장소\n
+```
+state : store에 저장되어 있는 상태값.
+action : store에 저장된 상태를 변경시키는 방식.
+reducer : action, old state를 받아서 new state로 변환시키는 함수
+store : App의 전역 상태 저장소
 ```
 
 2. redux 환경 세팅
