@@ -7,8 +7,8 @@ export const counterSlice = createSlice({
     initialState: {
         value: 0,
     },
-    // action 정의
     reducers: {
+        // 📣 action 정의(increment, decrement, incrementByAmout가 ⭐각각 액션으로 정의⭐됨.)
         increment: (state) => {
             // Redux Toolkit allows us to write "mutating" logic in reducers. It
             // doesn't actually mutate the state because it uses the Immer library,
