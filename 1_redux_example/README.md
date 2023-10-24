@@ -31,7 +31,16 @@ store : App의 전역 상태 저장소
     ```node.js
     # If you use npm:
     npm install react-redux
+    npm install @reduxjs/toolkit react-redux
 
     # Or if you use Yarn:
     yarn add react-redux
     ```
+  * ```
+    a. store.js 파일 작성
+    b. index.js 파일 수정
+    c. counterSlice라는 Reducer? 작성
+    d. store.js에 Reducer 추가
+    e. 컴포넌트 생성 및 내용 추가
+    ```
+  * dispatch, selector란?
