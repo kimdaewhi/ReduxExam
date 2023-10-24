@@ -7,11 +7,15 @@
   - store라는 App 전역 상태 트리를 가지고 있는 중앙 저장소가 있음.
   - 이는 React App의 모든 컴포넌트와 연결되고, reducer를 통해서 state를 변경할 수 있다.(그림 참고)
 
+<hr/>
+
 1. Redux의 주요 개념
-  > state : store에 저장되어 있는 상태값.\n
-  > action : store에 저장된 상태를 변경시키는 방식.\n
-  > reducer : action, old state를 받아서 new state로 변환시키는 함수\n
-  > store : App의 전역 상태 저장소\n
+```html
+<b>state : </b>store에 저장되어 있는 상태값.\n
+<b>action : </b>store에 저장된 상태를 변경시키는 방식.\n
+<b>reducer : </b>action, old state를 받아서 new state로 변환시키는 함수\n
+<b>store : </b>App의 전역 상태 저장소\n
+```
 
 2. redux 환경 세팅
   * Redux for React 앱 생성 시 
